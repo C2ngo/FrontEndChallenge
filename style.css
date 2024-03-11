@@ -84,3 +84,23 @@
       place-items: center;
     }
   }  
+  .flex-group {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+  }
+  
+  .grid-flow {
+    display: grid;
+    align-content: start;
+    gap: 1rem;
+  }
+  .grid-flow[data-spacing="large"] {
+    gap: 2rem;
+  }
+  .section-title {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-600);
+  }
+  
