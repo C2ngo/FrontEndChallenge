@@ -117,4 +117,10 @@
   .button:focus-visible {
     background: var(--gradient-primary);
   }
+  .result-summary {
+    --padding: 2.5rem;
+    --border-radius: 2rem;
   
+    max-width: 46rem;
+    display: grid;
+  }
